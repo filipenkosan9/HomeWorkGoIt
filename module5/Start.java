@@ -11,9 +11,9 @@ public class Start {
         System.out.println("Min. element: " + minArray(array));
         System.out.println("Max. element: " + maxArray(array));
 
-        System.out.println("sort array :");
+        System.out.print("sort array :");
         for (int arri : sortirovka(array) ) {
-            System.out.println(arri);
+            System.out.print(" " + arri);
         }
     }
 }
